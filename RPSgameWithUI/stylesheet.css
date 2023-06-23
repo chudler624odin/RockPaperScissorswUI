@@ -1,0 +1,147 @@
+/*Whole Screen*/
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxA{
+
+}
+
+.boxB{
+
+}
+
+.headline{
+    border: white 5px solid;
+    border-radius: 10px;
+}
+
+.boxC{
+    font-size: 35px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+
+/*Box Housing RPS Buttons*/
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px black solid;
+    align-content: center;
+    width: 66%;
+    border-radius: 25px;
+    background-color: aquamarine;
+    
+}
+
+.pic{
+    height:150px;
+    width:150px;
+    border-radius: 25px;
+    border:2px solid black;
+    margin-top:30px;
+    
+}
+
+.text{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/*Rock Button*/
+.rock{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+    
+}
+
+.rockPic{
+    height:100px;
+    width:auto;
+    /*background-image: URL("home/casey/Desktop/Repositories/RPSgameWithUI/RockPaperScissorsPics/rock.png");*/
+}
+
+.rockText{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Paper Button*/
+.paper{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+    
+}
+
+.paperPic{
+
+}
+
+.paperText{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Scissors Button*/
+.scissors{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+   
+}
+
+.scissorsPic{
+    
+}
+
+.scissorsText{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box3{
+    /*border: 1px black solid;*/
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin-top: 150px;
+    justify-content: space-between;
+
+}
+
+.scoreBox{
+    /*border: 1px black solid;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.score{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.whoScore1{
+
+}
+
+.compScore{
+
+}
+
+.whoScore2{
+
+}
+
