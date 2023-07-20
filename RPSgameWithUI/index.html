@@ -3,88 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors!</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="javascript.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <div class="box1">
-
-        <div class="boxA">
-            <div class="boxB">
-                <img class="headline" src="/home/casey/Desktop/RockPaperScissorsPics/RPSpic2.jpeg">
-                <div class="boxC">
-                    Pick One!
-                </div>
+    <script src="test.js" defer></script>
+    <div class="score">
+        <h1 class="ties">Ties: 0</h1>
+    </div>
+    <div class="winnerdiv">
+        <h1 class="winner"></h1>
+        <button class="reset" onclick="restartGame()" >Play Again?</button>
+    </div>
+    <div class="picContainer">
+        <div class="playerSection">
+            <h3 class="playerChoice"></h3>
+            <h3 class="playerScore">Score:0</h3>
+            <div class="playerImg">
+                <img src="./RockPaperScissorsPics/rock.png" alt="Dwayne Johnson" class="pImg" id="rock">
+                <img src="./RockPaperScissorsPics/paper.jpg" alt="paper" class="pImg" id="paper">
+                <img src="./RockPaperScissorsPics/Scissors.jpeg" alt="scissors" class="pImg" id="scissors">
             </div>
-        </div>
-
-        <div class="box2">
-
-            <div class="rock">
-                <div class="rockPic">
-                    <img class="pic" src="/home/casey/Desktop/Repositories/RPSgameWithUI/RockPaperScissorsPics/rock.png" height="100px" width="auto">
-                    <div class="rockText text">
-                        Rock
-                    </div>
-                </div>
-            </div> 
-
-            <div class="paper">
-                <div class="paperPic">
-                    <img class="pic" src="/home/casey/Desktop/Repositories/RPSgameWithUI/RockPaperScissorsPics/paper.jpg" height="100px" width="auto">
-                    <div class="paperText text">
-                        Paper
-                    </div>
-                </div>
-            </div>
-
-            <div class="scissors">
-                <div class="scissorsPic">
-                    <img class="pic" src="/home/casey/Desktop/Repositories/RPSgameWithUI/RockPaperScissorsPics/Scissors.jpeg" height="100px" width="auto">
-                    <div class="scissorsText text">
-                        Scissors
-                    </div>
-                </div>
-            </div>          
-        </div>
-
-        <div class="box3">
-
-            <div class="scoreBox left">
-
-                <div class="score player ">
-                    4
-                    <div class="whoScore1">
-
-                        Player Score
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="scoreBox right">
-
-                <div class="score comp">
-                    2
-                    <div class="whoScore2">
-
-                        Computer Score
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        
-        
+        </div>        
     </div>
 
-
-
+    <div class="picContainer">
+        <div class="computerSection">
+            <h3 class="computerChoice"></h3>
+            <h3 class="computerScore">Score:0</h3>
+            <div class="computerImg">
+                <img src="./RockPaperScissorsPics/rock.png" alt="Dwayne Johnson" class="rock">
+                <img src="./RockPaperScissorsPics/paper.jpg" alt="paper" class="paper">
+                <img src="./RockPaperScissorsPics/Scissors.jpeg" alt="scissors" class="scissors">
+            </div>
     
+        </div>
+    </div>
 </body>
 </html>

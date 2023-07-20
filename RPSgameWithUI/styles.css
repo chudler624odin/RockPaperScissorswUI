@@ -1,0 +1,28 @@
+.reset{
+    display:none;
+}
+
+.picContainer{
+    background-color: lightblue;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 20px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+playerImg, computerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
